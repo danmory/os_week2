@@ -9,7 +9,7 @@ void swap(int *a,int *b){
 
 int main(void){
     int a, b;
-    printf("Write to numbers separated by space: \n");
+    printf("Write two numbers separated by space: \n");
     scanf("%d %d", &a, &b);
     swap(&a, &b);
     printf("After swapping: \n%d %d", a, b);
