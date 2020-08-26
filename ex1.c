@@ -13,7 +13,7 @@ int main(){
 
     printf("int: size %lu, max %d \n", sizeof(a), a);
     printf("float: size %lu, max %f \n", sizeof(b), b);
-    printf("float: size %lu, max %f", sizeof(c), c);
+    printf("double: size %lu, max %f", sizeof(c), c);
 
     return 0;
 }
